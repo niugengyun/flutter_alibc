@@ -294,13 +294,7 @@ public class FlutterAlibcHandle{
         AlibcTradeSDK.setSyncForTaoke(call.argument("isSync"));
     }
 
-    /**
-     * TODO
-     * @param call
-     */
-    public void useAlipayNative(MethodCall call){
-        AlibcTradeSDK.setShouldUseAlipay(call.argument("isNeed"));
-    }
+
 
 
 }

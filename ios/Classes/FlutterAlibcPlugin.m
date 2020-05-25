@@ -50,8 +50,6 @@
         [_handler openCart:call result:result];
     }else if([@"syncForTaoke" isEqualToString:call.method]){
         [_handler syncForTaoke:call result:result];
-    }else if([@"useAlipayNative" isEqualToString:call.method]){
-        [_handler useAlipayNative:call result:result];
     }else {
         result(FlutterMethodNotImplemented);
     }

@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   s.dependency 'AliLinkPartnerSDK','4.0.0.24'
   s.dependency 'BCUserTrack','5.2.0.16-appkeys'
   s.dependency 'UTDID','1.1.0.16'
-  s.dependency 'AlipaySDK','2.0.0-bc'
   s.dependency 'WindVane','8.5.0.46-bc7-mini'
 
   # s.vendored_frameworks ="AliBaichuan/Frameworks/*.framework"

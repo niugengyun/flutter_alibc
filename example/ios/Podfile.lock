@@ -2,7 +2,6 @@ PODS:
   - AliAuthSDK (1.1.0.39-bc)
   - AlibcTradeSDK (4.0.1.0)
   - AliLinkPartnerSDK (4.0.0.24)
-  - AlipaySDK (2.0.0-bc)
   - BCUserTrack (5.2.0.16-appkeys):
     - UTDID
   - Flutter (1.0.0)
@@ -10,7 +9,6 @@ PODS:
     - AliAuthSDK (= 1.1.0.39-bc)
     - AlibcTradeSDK (= 4.0.1.0)
     - AliLinkPartnerSDK (= 4.0.0.24)
-    - AlipaySDK (= 2.0.0-bc)
     - BCUserTrack (= 5.2.0.16-appkeys)
     - Flutter
     - mtopSDK (= 3.0.0.4)
@@ -37,7 +35,6 @@ SPEC REPOS:
     - AliAuthSDK
     - AlibcTradeSDK
     - AliLinkPartnerSDK
-    - AlipaySDK
     - BCUserTrack
     - mtopSDK
     - securityGuard
@@ -54,7 +51,6 @@ SPEC CHECKSUMS:
   AliAuthSDK: c342b9f98627104a8d95c38cdef59ba946570e16
   AlibcTradeSDK: d9e0898097e9857cca00bb9736ff264b0995cc9c
   AliLinkPartnerSDK: c5778cdfdcee7bfe342238d39a77766184d36a46
-  AlipaySDK: a40a4099b24328d90d7ba4fb67f6ce753d7fa2c7
   BCUserTrack: ea53788070a12046c5b40fb426293f3b7a8a0c9d
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_alibc: 7b07cd4c926d2d3ba4bd2d904c47dee0f4cee1f4

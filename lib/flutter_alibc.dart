@@ -254,9 +254,4 @@ class FlutterAlibc {
   static syncForTaoke(bool isSync) {
     _channel.invokeMethod("syncForTaoke", {"isSync": isSync});
   }
-
-  // 是否需要 Native AliPay 接口
-  static useAlipayNative(bool isNeed) {
-    _channel.invokeMethod("useAlipayNative", {"isNeed": isNeed});
-  }
 }

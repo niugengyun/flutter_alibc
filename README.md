@@ -212,7 +212,3 @@ var result = await FlutterAlibc.openCart(
 FlutterAlibc.syncForTaoke(true);
 ````
 
-* 是否使用Native Alipay
-```
-FlutterAlibc.useAlipayNative(true);
-```

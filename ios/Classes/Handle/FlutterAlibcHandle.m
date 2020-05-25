@@ -102,10 +102,7 @@ FlutterMethodChannel *_flutterAlibcChannel = nil;
                });
     }
 }
-//
-//else if([@"useAlipayNative" isEqualToString:call.method]){
-//    [_handler useAlipayNative:call result:result];
-//}
+
 #pragma mark --淘客登录
 -(void)taoKeLogin:(FlutterMethodCall *)call result:(FlutterResult)result{
     //    需要获取的数据
@@ -287,11 +284,6 @@ FlutterMethodChannel *_flutterAlibcChannel = nil;
 - (void)syncForTaoke:(FlutterMethodCall *)call result:(FlutterResult)result{
     BOOL isSync = [call.arguments[@"isSync"] boolValue];
     [[AlibcTradeSDK sharedInstance] setIsSyncForTaoke:isSync];
-}
-#pragma mark --设置是否需要 Native AliPay 接口
-- (void)useAlipayNative:(FlutterMethodCall *)call result:(FlutterResult)result{
-    BOOL isNeed = [call.arguments[@"isNeed"] boolValue];
-    [[AlibcTradeSDK sharedInstance] setShouldUseAlizfNative:isNeed];
 }
 #pragma mark - 不对flutter暴露
 #pragma mark --打开page

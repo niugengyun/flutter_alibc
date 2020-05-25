@@ -87,13 +87,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)syncForTaoke:(FlutterMethodCall *)call result:(FlutterResult)result;
 
-/**
- 是否使用Native AliPay
-
- @param call <#call description#>
- @param result <#result description#>
- */
-- (void)useAlipayNative:(FlutterMethodCall *)call result:(FlutterResult)result;
 @end
 
 NS_ASSUME_NONNULL_END
